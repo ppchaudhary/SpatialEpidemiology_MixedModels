@@ -29,9 +29,9 @@ install.packages(c("doParallel", "foreach", "lme4", "MuMIn", "readr", "dplyr", "
    cd SpatialEpi_Modeling
    ```
 2. Prepare the input datasets (exposure, disease prevalence, and denominators) in CSV format.
-3. Run the main script in R:
+3. Run the main script in R using provided bash script if you are using hpc:
    ```r
-   source("main_script.R")
+   source("ME_AHQR_under_age_v2.R'")
    ```
 4. Results will be saved in the `results/` directory as CSV files.
 
