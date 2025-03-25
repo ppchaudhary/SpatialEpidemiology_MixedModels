@@ -20,7 +20,7 @@ options(max.print=10000)
 # all or peds?
 demographic<-"peds"
 # Test just a subset of the data if running on regular laptop:
-  test_subset<-FALSE
+  test_subset<-
 
 #### Read ####
 # Read Exposure data frame
